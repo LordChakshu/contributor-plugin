@@ -1,0 +1,41 @@
+/* CSS for contributor button and displaying them side by side */
+
+.contributor-name {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.contributor-name .button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  list-style: none;
+  outline: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none ;
+  transition: background-color 0.2s ease-in-out;
+  vertical-align: middle;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.contributor-name .button:hover {
+  background-color: #F082AC;
+  text-decoration: none;
+}
+
+
+
+
